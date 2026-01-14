@@ -62,10 +62,16 @@ class HomeViewController: UIViewController {
     
     private func getTrendingMovies() {
         APICaller.shared.getTrendingMovies {
-            _ in
-            
-            print("Inside getTrendingfunc in file hvc")
-            
+            results in
+            switch results {
+                
+                case .success(let movies):
+                print(movies)
+                
+            case .failure(let error):
+                print(error)
+                
+            }
         }
     }
     
