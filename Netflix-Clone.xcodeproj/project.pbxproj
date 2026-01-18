@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F86CAB0F2F192B3200CD77F1 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F86CAB0E2F192B3200CD77F1 /* SDWebImage */; };
 		F86CAB112F192B3200CD77F1 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F86CAB102F192B3200CD77F1 /* SDWebImageMapKit */; };
+		F86CABC52F1BB8B900CD77F1 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = F86CABC42F1BB8B900CD77F1 /* YouTubeiOSPlayerHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 			files = (
 				F86CAB112F192B3200CD77F1 /* SDWebImageMapKit in Frameworks */,
 				F86CAB0F2F192B3200CD77F1 /* SDWebImage in Frameworks */,
+				F86CABC52F1BB8B900CD77F1 /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +136,7 @@
 			packageProductDependencies = (
 				F86CAB0E2F192B3200CD77F1 /* SDWebImage */,
 				F86CAB102F192B3200CD77F1 /* SDWebImageMapKit */,
+				F86CABC42F1BB8B900CD77F1 /* YouTubeiOSPlayerHelper */,
 			);
 			productName = "Netflix-Clone";
 			productReference = F86CA9482F1057F500CD77F1 /* Netflix-Clone.app */;
@@ -219,6 +222,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				F86CAB0D2F19225300CD77F1 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				F86CABC32F1BB8B900CD77F1 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F86CA9492F1057F500CD77F1 /* Products */;
@@ -585,6 +589,14 @@
 				minimumVersion = 5.21.5;
 			};
 		};
+		F86CABC32F1BB8B900CD77F1 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -597,6 +609,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F86CAB0D2F19225300CD77F1 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		F86CABC42F1BB8B900CD77F1 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F86CABC32F1BB8B900CD77F1 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

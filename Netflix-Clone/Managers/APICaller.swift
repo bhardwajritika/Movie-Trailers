@@ -10,6 +10,8 @@ import Foundation
 struct Constants {
     static let API_KEY = "REMOVED_API_KEY"
     static let baseURL = "https://api.themoviedb.org"
+    static let YoutubeAPI_KEY = "REMOVED_API_KEY"
+    static let YoutubeBaseURL = "https://www.googleapis.com/youtube/v3/search?part=snippet"
 }
 
 enum APIError: Error {
@@ -183,6 +185,35 @@ class APICaller {
             }
         }
         
+                
+        task.resume()
+    }
+    
+    func getMovies(with query: String, completion: @escaping (Result<VideoElement, Error>) -> Void) {
+        
+        guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
+            return
+        }
+        print(query)
+        guard let url = URL(string: "\(Constants.YoutubeBaseURL)&q=\(query)&type=video&key=\(Constants.YoutubeAPI_KEY)")
+        else { return }
+        
+        print(url)
+        
+        let task = URLSession.shared.dataTask(with: URLRequest(url: url)) {
+            data, _, error in
+            guard let data = data, error == nil else {
+                return
+            }
+            
+            do {
+                let results = try JSONDecoder().decode(YoutubeSearchResponse.self, from: data)
+                completion(.success(results.items[0]))
+            } catch {
+                completion(.failure(error))
+            }
+        }
+
         task.resume()
     }
     
@@ -196,4 +227,9 @@ class APICaller {
 // https://api.themoviedb.org/3/discover/movie?api_key=REMOVED_API_KEY&page=1&language=en-US
 
 
+// https://www.googleapis.com/youtube/v3/search?q=Harry&key=REMOVED_API_KEY
 
+// https://www.googleapis.com/youtube/v3/search?part=snippet&q=Harry&type=video&key=REMOVED_API_KEY
+
+
+// https://www.googleapis.com/youtube/v3/search?part=snippet&q=Harry&type=video&key=REMOVED_API_KEY
