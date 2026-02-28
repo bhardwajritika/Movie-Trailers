@@ -36,10 +36,11 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         view.addSubview(homeFeedTable)
-        
+                
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
         headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 450))
+        headerView!.delegate = self
         homeFeedTable.tableHeaderView = headerView
         
         configureNavBar()
@@ -55,7 +56,7 @@ class HomeViewController: UIViewController {
             case .success(let titles):
                 let selectedTitle = titles.randomElement()
                 self?.randomTrendingMovie = selectedTitle
-                self?.headerView?.configure(with: TitleViewModel(titleName: selectedTitle?.original_title ?? "" , posterURL: selectedTitle?.poster_path ?? ""))
+                self?.headerView?.configure(with: selectedTitle!)
             case .failure(let error):
                 print(error.localizedDescription)
             }
@@ -63,24 +64,18 @@ class HomeViewController: UIViewController {
     }
     
     private func configureNavBar() {
-        var image = UIImage(named: "netflix-logo")
-        image = image?.withRenderingMode(.alwaysOriginal)
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image,
+        
+
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "popcorn"),
                                                            style: .done,
                                                            target: self,
-                                                           action: nil)
+                                                           action: nil
+        )
                                              
-        navigationItem.rightBarButtonItems = [UIBarButtonItem(image: UIImage(systemName: "person"),
-                                                             style: .done,
-                                                             target: self,
-                                                             action: nil),
-                                             UIBarButtonItem(image: UIImage(systemName: "play.rectangle"),
-                                                             style: .done,
-                                                             target: self,
-                                                             action: nil)
-        ]
         navigationController?.navigationBar.tintColor = .white
     }
+    
+   
 
     
     
@@ -207,6 +202,26 @@ extension HomeViewController: CollectionViewTableViewCellDelegate {
             let vc = TitlePreviewViewController()
             vc.configure(with: viewModel)
             self?.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+}
+
+extension HomeViewController: HeroHeaderUIViewDelegate {
+    
+    func heroHeaderViewDidTapPlay(_ header: HeroHeaderUIView, viewModel: TitlePreviewViewModel) {
+        let vc = TitlePreviewViewController()
+        vc.configure(with: viewModel)
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func heroHeaderViewDidTapDownload(_ header: HeroHeaderUIView, title: Title) {
+        DataPersistenceManager.shared.downloadTitleWith(model: title) { result in
+            switch result {
+            case .success():
+                print("Downloaded")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
         }
     }
 }
