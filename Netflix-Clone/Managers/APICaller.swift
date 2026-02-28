@@ -8,9 +8,7 @@
 import Foundation
 
 struct Constants {
-    static let API_KEY = "REMOVED_API_KEY"
     static let baseURL = "https://api.themoviedb.org"
-    static let YoutubeAPI_KEY = "REMOVED_API_KEY"
     static let YoutubeBaseURL = "https://www.googleapis.com/youtube/v3/search?part=snippet"
 }
 
@@ -24,7 +22,7 @@ class APICaller {
     
     func getTrendingMovies(completion: @escaping (Result<[Title], Error>) -> Void) {
         
-        guard let url = URL(string: "\(Constants.baseURL)/3/trending/movie/day?api_key=\(Constants.API_KEY)") else { return }
+        guard let url = URL(string: "\(Constants.baseURL)/3/trending/movie/day?api_key=\(API_KEY)") else { return }
         print(url)
         
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) {
@@ -46,7 +44,7 @@ class APICaller {
     
     
     func getTrendingTvs(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constants.baseURL)/3/trending/tv/day?api_key=\(Constants.API_KEY)") else { return }
+        guard let url = URL(string: "\(Constants.baseURL)/3/trending/tv/day?api_key=\(API_KEY)") else { return }
         print(url)
         
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) {
@@ -69,7 +67,7 @@ class APICaller {
     
     
     func getUpcomingMovies(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constants.baseURL)/3/movie/upcoming?api_key=\(Constants.API_KEY)&language=en-US&page=1") else { return }
+        guard let url = URL(string: "\(Constants.baseURL)/3/movie/upcoming?api_key=\(API_KEY)&language=en-US&page=1") else { return }
         
         print(url)
         
@@ -92,7 +90,7 @@ class APICaller {
     
     
     func getPopular(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constants.baseURL)/3/movie/popular?api_key=\(Constants.API_KEY)&language=en-US&page=1") else { return }
+        guard let url = URL(string: "\(Constants.baseURL)/3/movie/popular?api_key=\(API_KEY)&language=en-US&page=1") else { return }
         
         print(url)
         
@@ -115,7 +113,7 @@ class APICaller {
     
     
     func getTopRated(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constants.baseURL)/3/movie/top_rated?api_key=\(Constants.API_KEY)&language=en-US&page=1") else { return }
+        guard let url = URL(string: "\(Constants.baseURL)/3/movie/top_rated?api_key=\(API_KEY)&language=en-US&page=1") else { return }
         
         print(url)
         
@@ -138,7 +136,7 @@ class APICaller {
     
     
     func getDiscoverMovies(completion: @escaping (Result<[Title], Error>) -> Void) {
-        guard let url = URL(string: "\(Constants.baseURL)/3/discover/movie?api_key=\(Constants.API_KEY)&language=en-US")
+        guard let url = URL(string: "\(Constants.baseURL)/3/discover/movie?api_key=\(API_KEY)&language=en-US")
         else { return }
                 
         print(url)
@@ -166,7 +164,7 @@ class APICaller {
             return
         }
         
-        guard let url = URL(string: "\(Constants.baseURL)/3/search/movie?api_key=\(Constants.API_KEY)&query=\(query)")
+        guard let url = URL(string: "\(Constants.baseURL)/3/search/movie?api_key=\(API_KEY)&query=\(query)")
         else { return }
         
         print(url)
@@ -195,7 +193,7 @@ class APICaller {
             return
         }
         print(query)
-        guard let url = URL(string: "\(Constants.YoutubeBaseURL)&q=\(query)&type=video&key=\(Constants.YoutubeAPI_KEY)")
+        guard let url = URL(string: "\(Constants.YoutubeBaseURL)&q=\(query)+oficial+trailer&type=video&key=\(YoutubeAPI_KEY)")
         else { return }
         
         print(url)
@@ -221,15 +219,3 @@ class APICaller {
     
 }
 
-
-// https://api.themoviedb.org/3/search/movie?api_key=REMOVED_API_KEY&query=avengers&page=1&language=en-US
-
-// https://api.themoviedb.org/3/discover/movie?api_key=REMOVED_API_KEY&page=1&language=en-US
-
-
-// https://www.googleapis.com/youtube/v3/search?q=Harry&key=REMOVED_API_KEY
-
-// https://www.googleapis.com/youtube/v3/search?part=snippet&q=Harry&type=video&key=REMOVED_API_KEY
-
-
-// https://www.googleapis.com/youtube/v3/search?part=snippet&q=Harry&type=video&key=REMOVED_API_KEY
