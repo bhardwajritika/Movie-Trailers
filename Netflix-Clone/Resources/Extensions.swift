@@ -12,4 +12,8 @@ extension String {
     func capitalizeFirstLetter() -> String {
         return self.prefix(1).uppercased() + self.lowercased().dropFirst()
     }
+    
+    func repeating(_ count: Int) -> String {
+        return String(repeating: self, count: count)
+    }
 }

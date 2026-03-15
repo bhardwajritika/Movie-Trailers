@@ -1,0 +1,287 @@
+[
+    {
+        "question": "\"I'm gonna make him an offer he can't refuse.\"",
+        "options": ["Scarface", "The Godfather", "Goodfellas", "Casino"],
+        "correctAnswer": "The Godfather"
+    },
+    {
+        "question": "\"Here's looking at you, kid.\"",
+        "options": ["Gone with the Wind", "Casablanca", "Roman Holiday", "Breakfast at Tiffany's"],
+        "correctAnswer": "Casablanca"
+    },
+    {
+        "question": "\"May the Force be with you.\"",
+        "options": ["Star Wars", "Star Trek", "Guardians of the Galaxy", "The Avengers"],
+        "correctAnswer": "Star Wars"
+    },
+    {
+        "question": "\"You can't handle the truth!\"",
+        "options": ["A Few Good Men", "The Firm", "Philadelphia", "Erin Brockovich"],
+        "correctAnswer": "A Few Good Men"
+    },
+    {
+        "question": "\"I'll be back.\"",
+        "options": ["The Terminator", "Predator", "RoboCop", "Blade Runner"],
+        "correctAnswer": "The Terminator"
+    },
+    {
+        "question": "\"Frankly, my dear, I don't give a damn.\"",
+        "options": ["Gone with the Wind", "Casablanca", "The Wizard of Oz", "Rebecca"],
+        "correctAnswer": "Gone with the Wind"
+    },
+    {
+        "question": "\"I'm the king of the world!\"",
+        "options": ["Titanic", "Pirates of the Caribbean", "Waterworld", "Poseidon"],
+        "correctAnswer": "Titanic"
+    },
+    {
+        "question": "\"You had me at hello.\"",
+        "options": ["Jerry Maguire", "You've Got Mail", "Sleepless in Seattle", "Notting Hill"],
+        "correctAnswer": "Jerry Maguire"
+    },
+    {
+        "question": "\"Nobody puts Baby in a corner.\"",
+        "options": ["Dirty Dancing", "Flashdance", "Footloose", "Saturday Night Fever"],
+        "correctAnswer": "Dirty Dancing"
+    },
+    {
+        "question": "\"I am serious... and don't call me Shirley.\"",
+        "options": ["Airplane!", "The Naked Gun", "Ghostbusters", "Caddyshack"],
+        "correctAnswer": "Airplane!"
+    },
+    {
+        "question": "\"Hasta la vista, baby.\"",
+        "options": ["Terminator 2", "The Matrix", "RoboCop", "Blade Runner"],
+        "correctAnswer": "Terminator 2"
+    },
+    {
+        "question": "\"I have a bad feeling about this.\"",
+        "options": ["Star Wars", "Star Trek", "Guardians of the Galaxy", "The Avengers"],
+        "correctAnswer": "Star Wars"
+    },
+    {
+        "question": "\"You're gonna need a bigger boat.\"",
+        "options": ["Jaws", "The Perfect Storm", "Deep Blue Sea", "Open Water"],
+        "correctAnswer": "Jaws"
+    },
+    {
+        "question": "\"Show me the money!\"",
+        "options": ["Jerry Maguire", "Wall Street", "Boiler Room", "The Big Short"],
+        "correctAnswer": "Jerry Maguire"
+    },
+    {
+        "question": "\"I am your father.\"",
+        "options": ["Star Wars", "The Empire Strikes Back", "Return of the Jedi", "The Force Awakens"],
+        "correctAnswer": "The Empire Strikes Back"
+    },
+    {
+        "question": "\"There's no place like home.\"",
+        "options": ["The Wizard of Oz", "Alice in Wonderland", "Peter Pan", "The Chronicles of Narnia"],
+        "correctAnswer": "The Wizard of Oz"
+    },
+    {
+        "question": "\"I'm walking here!\"",
+        "options": ["Midnight Cowboy", "Taxi Driver", "The Godfather", "Goodfellas"],
+        "correctAnswer": "Midnight Cowboy"
+    },
+    {
+        "question": "\"You talkin' to me?\"",
+        "options": ["Taxi Driver", "Goodfellas", "The Godfather", "Casino"],
+        "correctAnswer": "Taxi Driver"
+    },
+    {
+        "question": "\"I love the smell of napalm in the morning.\"",
+        "options": ["Apocalypse Now", "Platoon", "The Deer Hunter", "Born on the Fourth of July"],
+        "correctAnswer": "Apocalypse Now"
+    },
+    {
+        "question": "\"Here's Johnny!\"",
+        "options": ["The Shining", "Psycho", "Halloween", "Friday the 13th"],
+        "correctAnswer": "The Shining"
+    },
+    {
+        "question": "\"They call me Mister Tibbs!\"",
+        "options": ["In the Heat of the Night", "To Kill a Mockingbird", "Mississippi Burning", "The Color Purple"],
+        "correctAnswer": "In the Heat of the Night"
+    },
+    {
+        "question": "\"I have a particular set of skills.\"",
+        "options": ["Taken", "John Wick", "The Bourne Identity", "Mission: Impossible"],
+        "correctAnswer": "Taken"
+    },
+    {
+        "question": "\"Why so serious?\"",
+        "options": ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
+        "correctAnswer": "The Dark Knight"
+    },
+    {
+        "question": "\"I am Groot.\"",
+        "options": ["Guardians of the Galaxy", "Avengers: Infinity War", "Avengers: Endgame", "Thor: Ragnarok"],
+        "correctAnswer": "Guardians of the Galaxy"
+    },
+    {
+        "question": "\"Winter is coming.\"",
+        "options": ["Game of Thrones", "The Lord of the Rings", "The Chronicles of Narnia", "Harry Potter"],
+        "correctAnswer": "Game of Thrones"
+    },
+    {
+        "question": "\"I am Iron Man.\"",
+        "options": ["Iron Man", "The Avengers", "Iron Man 3", "Avengers: Endgame"],
+        "correctAnswer": "Iron Man"
+    },
+    {
+        "question": "\"With great power comes great responsibility.\"",
+        "options": ["Spider-Man", "The Amazing Spider-Man", "Spider-Man: Homecoming", "Avengers: Infinity War"],
+        "correctAnswer": "Spider-Man"
+    },
+    {
+        "question": "\"I find your lack of faith disturbing.\"",
+        "options": ["Star Wars", "The Empire Strikes Back", "Return of the Jedi", "The Force Awakens"],
+        "correctAnswer": "The Empire Strikes Back"
+    },
+    {
+        "question": "\"Do. Or do not. There is no try.\"",
+        "options": ["Star Wars", "The Empire Strikes Back", "Return of the Jedi", "The Phantom Menace"],
+        "correctAnswer": "The Empire Strikes Back"
+    },
+    {
+        "question": "\"Help me, Obi-Wan Kenobi. You're my only hope.\"",
+        "options": ["Star Wars", "The Empire Strikes Back", "Return of the Jedi", "A New Hope"],
+        "correctAnswer": "Star Wars"
+    },
+    {
+        "question": "\"It's a trap!\"",
+        "options": ["Star Wars", "The Empire Strikes Back", "Return of the Jedi", "The Force Awakens"],
+        "correctAnswer": "Return of the Jedi"
+    },
+    {
+        "question": "\"You shall not pass!\"",
+        "options": ["The Lord of the Rings", "The Fellowship of the Ring", "The Two Towers", "The Return of the King"],
+        "correctAnswer": "The Fellowship of the Ring"
+    },
+    {
+        "question": "\"My precious.\"",
+        "options": ["The Lord of the Rings", "The Fellowship of the Ring", "The Two Towers", "The Return of the King"],
+        "correctAnswer": "The Two Towers"
+    },
+    {
+        "question": "\"One does not simply walk into Mordor.\"",
+        "options": ["The Lord of the Rings", "The Fellowship of the Ring", "The Two Towers", "The Return of the King"],
+        "correctAnswer": "The Fellowship of the Ring"
+    },
+    {
+        "question": "\"I would have gone with you to the end, into the very fires of Mordor.\"",
+        "options": ["The Lord of the Rings", "The Fellowship of the Ring", "The Two Towers", "The Return of the King"],
+        "correctAnswer": "The Return of the King"
+    },
+    {
+        "question": "\"You're a wizard, Harry.\"",
+        "options": ["Harry Potter", "Harry Potter and the Sorcerer's Stone", "Harry Potter and the Chamber of Secrets", "Harry Potter and the Prisoner of Azkaban"],
+        "correctAnswer": "Harry Potter and the Sorcerer's Stone"
+    },
+    {
+        "question": "\"Expecto Patronum!\"",
+        "options": ["Harry Potter", "Harry Potter and the Prisoner of Azkaban", "Harry Potter and the Goblet of Fire", "Harry Potter and the Order of the Phoenix"],
+        "correctAnswer": "Harry Potter and the Prisoner of Azkaban"
+    },
+    {
+        "question": "\"Avada Kedavra!\"",
+        "options": ["Harry Potter", "Harry Potter and the Goblet of Fire", "Harry Potter and the Deathly Hallows", "Harry Potter and the Half-Blood Prince"],
+        "correctAnswer": "Harry Potter and the Goblet of Fire"
+    },
+    {
+        "question": "\"I am the one who knocks.\"",
+        "options": ["Breaking Bad", "The Sopranos", "The Wire", "Narcos"],
+        "correctAnswer": "Breaking Bad"
+    },
+    {
+        "question": "\"Say hello to my little friend!\"",
+        "options": ["Scarface", "Carlito's Way", "The Godfather", "Goodfellas"],
+        "correctAnswer": "Scarface"
+    },
+    {
+        "question": "\"I'm too old for this shit.\"",
+        "options": ["Lethal Weapon", "Die Hard", "Beverly Hills Cop", "48 Hrs."],
+        "correctAnswer": "Lethal Weapon"
+    },
+    {
+        "question": "\"Go ahead, make my day.\"",
+        "options": ["Sudden Impact", "Dirty Harry", "The Enforcer", "The Dead Pool"],
+        "correctAnswer": "Sudden Impact"
+    },
+    {
+        "question": "\"They may take our lives, but they'll never take our freedom!\"",
+        "options": ["Braveheart", "Gladiator", "The Patriot", "Master and Commander"],
+        "correctAnswer": "Braveheart"
+    },
+    {
+        "question": "\"I'm the Dude. So that's what you call me.\"",
+        "options": ["The Big Lebowski", "Fargo", "No Country for Old Men", "O Brother, Where Art Thou?"],
+        "correctAnswer": "The Big Lebowski"
+    },
+    {
+        "question": "\"This is not 'Nam, this is bowling. There are rules.\"",
+        "options": ["The Big Lebowski", "Fargo", "No Country for Old Men", "O Brother, Where Art Thou?"],
+        "correctAnswer": "The Big Lebowski"
+    },
+    {
+        "question": "\"Nobody panics when things go 'according to plan'. Even if the plan is horrifying.\"",
+        "options": ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
+        "correctAnswer": "The Dark Knight"
+    },
+    {
+        "question": "\"I believe whatever doesn't kill you simply makes you... stranger.\"",
+        "options": ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
+        "correctAnswer": "The Dark Knight"
+    },
+    {
+        "question": "\"It's not about what I want. It's about what's fair!\"",
+        "options": ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
+        "correctAnswer": "The Dark Knight"
+    },
+    {
+        "question": "\"You either die a hero, or you live long enough to see yourself become the villain.\"",
+        "options": ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
+        "correctAnswer": "The Dark Knight"
+    },
+    {
+        "question": "\"Sometimes the truth isn't good enough, sometimes people deserve more.\"",
+        "options": ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
+        "correctAnswer": "The Dark Knight"
+    },
+    {
+        "question": "\"If you want to make the world a better place, take a look at yourself and make a change.\"",
+        "options": ["Man of Steel", "Batman v Superman", "Wonder Woman", "Justice League"],
+        "correctAnswer": "Man of Steel"
+    },
+    {
+        "question": "\"I'm not locked in here with you. You're locked in here with me!\"",
+        "options": ["The Silence of the Lambs", "Hannibal", "Red Dragon", "Hannibal Rising"],
+        "correctAnswer": "The Silence of the Lambs"
+    },
+    {
+        "question": "\"It's alive! It's alive!\"",
+        "options": ["Frankenstein", "Bride of Frankenstein", "The Wolf Man", "Dracula"],
+        "correctAnswer": "Frankenstein"
+    },
+    {
+        "question": "\"We all go a little mad sometimes.\"",
+        "options": ["Psycho", "The Birds", "Vertigo", "North by Northwest"],
+        "correctAnswer": "Psycho"
+    },
+    {
+        "question": "\"They're here!\"",
+        "options": ["Poltergeist", "The Amityville Horror", "The Shining", "The Exorcist"],
+        "correctAnswer": "Poltergeist"
+    },
+    {
+        "question": "\"I see dead people.\"",
+        "options": ["The Sixth Sense", "The Others", "What Lies Beneath", "Stir of Echoes"],
+        "correctAnswer": "The Sixth Sense"
+    },
+    {
+        "question": "\"Game over, man! Game over!\"",
+        "options": ["Aliens", "Predator", "Die Hard", "Lethal Weapon"],
+        "correctAnswer": "Aliens"
+    }
+]
