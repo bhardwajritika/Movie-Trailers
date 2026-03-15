@@ -11,6 +11,14 @@ This project demonstrates API integration, asynchronous image loading, Core Data
 
 Movie-Trailers allows users to explore movies and TV shows across multiple categories such as trending, popular, upcoming, and top-rated titles.  
 Users can search for content, preview trailers directly inside the app, and save titles locally for later viewing.
+Test your movie knowledge with the Movie Dialogue Quiz, where you guess the movie from a famous dialogue line.
+
+How it works:
+
+• Read an iconic movie quote
+• Choose the correct movie from multiple options
+• Get instant feedback on your answer
+• Challenge yourself and improve your score
 
 ---
 
@@ -22,7 +30,8 @@ Users can search for content, preview trailers directly inside the app, and save
   - Trending TV Shows  
   - Popular Titles  
   - Upcoming Releases  
-  - Top-Rated Content  
+  - Top-Rated Content
+  - Quiz Time
 
 - 🔍 **Search Functionality**  
   Search for movies using TMDB’s search endpoint with real-time results.
@@ -35,6 +44,9 @@ Users can search for content, preview trailers directly inside the app, and save
 
 - 🖼️ **Efficient Image Loading**  
   Asynchronous poster image loading and caching powered by **SDWebImage**.
+
+- **Movie Quiz**
+  User can play quiz. User has to guess the movie name based on the dialogue given. 
 
 ---
 
@@ -107,4 +119,4 @@ Users can search for content, preview trailers directly inside the app, and save
 - The home screen loads categorized content using TMDB endpoints via APICaller.
 - Each category is displayed as a horizontally scrolling UICollectionView embedded in a UITableViewCell.
 - Selecting a title triggers a YouTube search (title name + “trailer”) and opens a preview screen with an embedded player.
-- Downloaded titles are persisted locally using Core Data through DataPersistenceManager.
+- Favorite titles are persisted locally using Core Data through DataPersistenceManager.
