@@ -67,7 +67,7 @@ Users can search for content, preview trailers directly inside the app, and save
       <b>Download Option</b>
     </td>
     <td align="center">
-      <img src="./MTScreenshots/Downloadscreen.png" width="250" /><br/>
+      <img src="./MTScreenshots/QuizQuestion.png" width="250" /><br/>
       <b>Download screen</b>
     </td>
   </tr>
