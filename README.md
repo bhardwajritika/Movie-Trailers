@@ -60,7 +60,7 @@ How it works:
     </td>
     <td align="center">
       <img src="./MTScreenshots/Upcomingscreen.png" width="250" /><br/>
-      <b>Main Screen</b>
+      <b>Upcoming Screen</b>
     </td>
   </tr>
   <tr>
@@ -70,17 +70,17 @@ How it works:
     </td>
     <td align="center">
       <img src="./MTScreenshots/FavoriteScreen.png" width="250" /><br/>
-      <b>Upcoming Screen</b>
+      <b>Favorite Screen</b>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="./MTScreenshots/StartQuiz.png" width="250" /><br/>
-      <b>Download Option</b>
+      <b>Start Quiz Screen</b>
     </td>
     <td align="center">
       <img src="./MTScreenshots/QuizQuestion.png" width="250" /><br/>
-      <b>Download screen</b>
+      <b>Quiz screen</b>
     </td>
   </tr>
    <tr>
