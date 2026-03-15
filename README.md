@@ -47,7 +47,7 @@ Users can search for content, preview trailers directly inside the app, and save
       <b>Main Screen</b>
     </td>
     <td align="center">
-      <img src="./MTScreenshots/tableViewmain.png" width="250" /><br/>
+      <img src="./MTScreenshots/Upcomingscreen.png" width="250" /><br/>
       <b>Main Screen</b>
     </td>
   </tr>
@@ -57,13 +57,13 @@ Users can search for content, preview trailers directly inside the app, and save
       <b>Search Screen</b>
     </td>
     <td align="center">
-      <img src="./MTScreenshots/Upcomingscreen.png" width="250" /><br/>
+      <img src="./MTScreenshots/FavoriteScreen.png" width="250" /><br/>
       <b>Upcoming Screen</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="./MTScreenshots/DownloadOption.png" width="250" /><br/>
+      <img src="./MTScreenshots/StartQuiz.png" width="250" /><br/>
       <b>Download Option</b>
     </td>
     <td align="center">
