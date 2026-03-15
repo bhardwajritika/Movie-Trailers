@@ -120,7 +120,7 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
         ) {
            [weak self] _ in
             let downloadAction = UIAction(
-                title: "Download", subtitle: nil, image: nil, identifier: nil, discoverabilityTitle: nil, state: .off) {
+                title: "Favorite", subtitle: nil, image: nil, identifier: nil, discoverabilityTitle: nil, state: .off) {
                     _ in
                     self?.downloadTitleAct(indexPath: indexPath)
                 }

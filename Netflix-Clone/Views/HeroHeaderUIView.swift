@@ -19,7 +19,7 @@ class HeroHeaderUIView: UIView {
     
     private let downloadButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Download", for: .normal)
+        button.setTitle("Favorite", for: .normal)
         button.layer.borderColor = UIColor.white.cgColor
         button.layer.borderWidth = 1
         button.layer.cornerRadius = 5
